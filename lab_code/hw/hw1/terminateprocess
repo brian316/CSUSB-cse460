@@ -1,0 +1,7 @@
+if ps -ef |grep test1| grep -v grep -q
+    then
+        ps -ef |grep test1 | grep -v grep | awk '{print $2}' | xargs kill &. /dev/null
+        echo "Process killed"
+    else
+        echo "Process Not Running"
+fi 
