@@ -1,3 +1,3 @@
 # CSUSB-cse460
-professor: tongyu\n
+professor: tongyu
 website: http://cse.csusb.edu/tongyu/courses/cs460/
